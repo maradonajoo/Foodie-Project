@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('bg.png');
+    height: 80vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+
+.head{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(255, 183, 59);
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    color: rgb(213, 89, 78);
+    padding-left: 25px;
+}
+
+.heading:hover{
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    gap: 70px;
+    padding-top: 35px;
+    margin-left: auto;
+    padding-right: 150px;
+    justify-content: space-between;
+}
+
+.navs{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(92, 90, 86);
+}
+
+.navs:hover{
+    transition: 100ms;
+    font-weight: 700;
+    color: rgb(213, 89, 78);
+}
+
+.box2{
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.903);
+    width: 90%;
+    height: 600px;
+    border-radius: 10px;
+    top: 20%;
+    left: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+
+
+footer{
+    background-color: rgb(255, 183, 59);
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    top: 800px;
+    width: 100%;
+    font-weight: 600;
+}
+
+h2{
+    color: rgb(213, 89, 78);
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+p{
+    color: rgb(92, 90, 86);
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+}
+
+.num{
+    color: rgb(92, 90, 86);
+    font-weight: 600;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+.Email{
+    color: rgb(92, 90, 86);
+    font-weight: 600;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+}
+
+.email{
+    color: rgb(92, 90, 86);
+    font-weight: 600;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.credits{
+    color: rgb(92, 90, 86);
+    font-weight: 600;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+}
