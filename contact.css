@@ -62,14 +62,12 @@ body{
     justify-content: center;
 }
 
-
-
 footer{
     background-color: rgb(255, 183, 59);
     text-align: center;
     padding: 10px;
     position: absolute;
-    top: 800px;
+    top: 120%;
     width: 100%;
     font-weight: 600;
 }
@@ -120,4 +118,5 @@ p{
     position: absolute;
     top: 55%;
     left: 5%;
+
 }
